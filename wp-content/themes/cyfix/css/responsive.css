@@ -1,0 +1,130 @@
+@media only screen and (min-width: 1700px) {
+    /* .banner_img img {
+        max-height: 65vh;
+    } */
+}
+
+@media only screen and (max-width: 1679px) {}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+
+    .header__top ul:first-of-type {
+        display: none;
+    }
+
+    .header__top ul.header_social li:not(:last-child) {
+        display: none;
+    }
+
+    .header-hamburger {
+        display: flex;
+    }
+
+    .header__top .header__top-wrapp {
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .header__top .header_logo {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .banner_img img {
+        height: 100vh;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .banner_info {
+        max-width: 100%;
+        padding: 2rem;
+        gap: 4rem;
+    }
+
+    .banner_info h1 {
+        white-space: unset;
+    }
+
+    .cyfix-tab-content-mob {
+        padding: 1rem;
+    }
+
+    .why-we_wrapper {
+        flex-direction: column;
+    }
+
+    .block-pref {
+        padding-bottom: 3rem;
+        border-bottom: 0.1rem solid #ffffff26;
+    }
+
+    .texno_wrapper {
+        flex-direction: column;
+    }
+
+    .texno_text {
+        max-width: unset;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .cyfix-tabs-container {
+        flex-direction: row;
+    }
+
+    .cyfix-tab-titles {
+        gap: 3rem;
+    }
+
+    .cyfix-tab-titles label {
+        cursor: pointer;
+        border-bottom: 1px solid #dddddd24;
+        padding: 2rem;
+    }
+
+    .cyfix-tab-content-mob {
+        display: none;
+    }
+
+    .cyfix-tab-contents {
+        flex: 3;
+        padding: 1.5rem;
+    }
+
+    .cyfix-tab-content {
+        display: none;
+    }
+
+    /* Display the content corresponding to the checked tab */
+    #cyfix-tab-1:checked~.cyfix-tab-contents #content-1 {
+        display: block;
+    }
+
+    #cyfix-tab-2:checked~.cyfix-tab-contents #content-2 {
+        display: block;
+    }
+
+    #cyfix-tab-3:checked~.cyfix-tab-contents #content-3 {
+        display: block;
+    }
+
+    .block-pref:nth-child(2) {
+        padding-top: 5rem;
+    }
+
+    .block-pref:nth-child(3) {
+        padding-top: 12rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 424px) {}

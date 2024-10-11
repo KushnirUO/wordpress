@@ -1,0 +1,140 @@
+/*fonts*/
+/* @font-face {
+    font-family: "Evolventa";
+    src: url("../fonts/Evolventa-Regular.eot");
+    src: url("../fonts/Evolventa-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Evolventa-Regular.woff") format("woff"), url("../fonts/Evolventa-Regular.ttf") format("truetype"), url("../fonts/Evolventa-Regular.svg#Evolventa") format("svg");
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+/* base styles*/
+:root {
+    --color-white: #FBFBFB;
+    --color-blue: #24C0EB;
+    --color-blue-hover: #23ADD3;
+    --color-black: #000;
+    --Inter: 'Inter', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --Evolventa: 'Evolventa', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*,
+body,
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-appearance: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+mark {
+    -webkit-text-fill-color: initial;
+    text-fill-color: transparent;
+    background: none;
+}
+
+.img.contain img {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.img>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+    font-family: 'Exo 2';
+    font-weight: 300;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+@media only screen and (min-width: 1921px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 2049px) {
+    html {
+        font-size: 14px;
+    }
+}
